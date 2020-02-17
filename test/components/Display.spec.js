@@ -7,8 +7,8 @@ import Editor from '../../app/components/Editor';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-function setup(initialState) {
-  const app = mount((<Display />));
+function setup() {
+  const app = mount(<Display />);
   return {
     app,
     navigation: app.find(Navigation),

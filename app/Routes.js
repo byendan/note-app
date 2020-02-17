@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router';
 import routes from './constants/routes.json';
 import App from './containers/App';
-import DisplayPage from './components/DisplayPage';
+import DisplayPage from './containers/DisplayPage';
 import CounterPage from './containers/CounterPage';
 
 export default () => (
