@@ -4,11 +4,15 @@ export type counterStateType = {
   +counter: number
 };
 
+export type openNavPanelStateType = {
+  +openNavPanel: boolean
+};
+
 export type Action = {
   +type: string
 };
 
-export type GetState = () => counterStateType;
+export type GetState = () => openNavPanelStateType;
 
 export type Dispatch = ReduxDispatch<Action>;
 

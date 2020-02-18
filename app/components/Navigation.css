@@ -1,0 +1,43 @@
+.navigationOpenButton {
+  position: absolute;
+  top: 15px;
+  right: -15px;
+}
+
+.navigationTitleChip {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.navigationHover {
+  border-right: solid 3px #666666;
+}
+
+.navButtonHover {
+  font-size: 100px;
+  background-color: blue;
+  color: red;
+}
+
+.openNavPanel {
+  background-color: #595959;
+  order: 1;
+  height: 100%;
+  width: 50%;
+  position: relative;
+  border-right: solid 3px #4d4d4d;
+  transition: width .5s ease-out;
+}
+
+.closedNavPanel {
+  background-color: #4d4d4d;
+  width: 30px;
+  height: 100%;
+  position: relative;
+  border-right: solid 3px #4d4d4d;
+  transition: width .5s ease-out;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,13 @@
+.editorContainer {
+  width: 300px;
+  height: 500px;
+  background-color: #333;
+  order: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.editorTitleChip {
+  margin-top: 10px;
+  margin-left: 25px;
+}
